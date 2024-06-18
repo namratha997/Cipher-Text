@@ -1,9 +1,7 @@
-Overview: 
+## Overview: 
 The crypt function is a simple implementation of a Caesar cipher, a type of substitution cipher in which each letter in the plaintext is shifted a certain number of places down or up the alphabet. This function can be used to encrypt or decrypt a given string based on the specified step count.
 
-Function Definition
-python
-Copy code
+## Function Definition:
 def crypt(text, step):
     """
     Encrypts or decrypts a given string using a Caesar cipher.
@@ -15,11 +13,12 @@ def crypt(text, step):
     Returns:
         string: The encrypted or decrypted string.
     """
-Parameters:
-text (string): The input string that you want to encrypt or decrypt.
-step (int): The number of positions to shift each character in the string. A positive value will encrypt the string, while a negative value will decrypt it.
+## Parameters:
+-text (string): The input string that you want to encrypt or decrypt.
+-step (int): The number of positions to shift each character in the string. A positive value will encrypt the string, while a negative value will decrypt it.
+
 Returns
-string: The resulting string after applying the Caesar cipher with the specified shift.
+-string: The resulting string after applying the Caesar cipher with the specified shift.
 Usage
 Encrypting a String
 To encrypt a string, call the crypt function with the string you want to encrypt and the desired shift count.
